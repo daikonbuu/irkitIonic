@@ -1,0 +1,29 @@
+
+<ion-content class="has-header">
+    <div class="list">
+        <div class="item item-divider">
+            IRKit settings
+        </div>
+        <label class="item item-input item-stacked-label">
+            <span class="input-label">IRKit hostname</span>
+            <input type="text" class="form-control" placeholder="IP address or IRKitXXXX.local hostname" ng-model="irkitsettings.hostname">
+        </label>
+
+        <label class="item item-input item-stacked-label">
+            <span class="input-label">IR signal JSON Default Value</span>
+            <input type="text" class="form-control" placeholder="" ng-model="irkitsettings.message">
+        </label>
+    </div>
+    <div class="list">
+        <div class="item item-divider">
+            Presets
+        </div>
+
+        <a class="item" href="#">
+            aircon-on
+        </a>
+        <a class="item" href="#">
+            aircon-off
+        </a>
+    </div>
+</ion-content>
